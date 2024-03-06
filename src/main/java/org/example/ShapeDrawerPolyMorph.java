@@ -1,8 +1,6 @@
 package org.example;
 import java.util.Scanner;
 import java.util.InputMismatchException;
-import java.util.Collection;
-import java.util.AbstractCollection;
 
 interface Shape{ //implementation of polymorphism
     void draw(int height, int side);
@@ -71,7 +69,6 @@ public class ShapeDrawerPolyMorph {
         }
 
     }
-
 
     public void run (){
         //loop while untuk aplikasi terus running sampai ada exit

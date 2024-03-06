@@ -72,7 +72,7 @@ public class ShapeDrawer {
             System.out.println();
         }
     }
-    public static void main (String[] args){
+    public static void main1 (String[] args){
         //Inherintance (oop)
         //untuk running
         ShapeDrawer drawer = new ShapeDrawer();
